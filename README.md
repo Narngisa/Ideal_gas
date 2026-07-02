@@ -49,7 +49,7 @@ gas = PVnRT(
     temperature=Temperature(temperature=27, unit="C", school_mode=False),
 )
 
-# Pressure ~ 25.92631
+# Pressure ~ 25.92569
 print(gas.calculate_pressure)
 ```
 
@@ -65,7 +65,7 @@ gas = PVgMRT(
     temperature=Temperature(temperature=298, unit="K", school_mode=False),
 )
 
-# Pressure ~ 76,455.625
+# Pressure ~ 76415.58125
 print(gas.calculate_pressure)
 ```
 
@@ -80,7 +80,7 @@ gas = PVdRT(
     temperature=Temperature(temperature=300, unit="K", school_mode=False),
 )
 
-# Pressure ~ 61.575
+# Pressure ~ 61.54275
 print(gas.calculate_pressure)
 ```
 
@@ -90,11 +90,11 @@ from ideal_gas import PMRT, Molarity, Temperature
 # Pressure, Molarity, Temperature
 
 gas = PMRT(
-    molarity=molarity(volume=7, unit="mol/L"),
+    molarity=Molarity(molarity=7, unit="mol/L"),
     temperature=Temperature(temperature=300, unit="K", school_mode=False),
 )
 
-# Pressure ~ 172.41
+# Pressure ~ 172.3197
 print(gas.calculate_pressure)
 ```
 
@@ -108,13 +108,13 @@ gas = PVnRT(
     mole=Mole(mole=8, unit="mol"),
     temperature=Temperature(temperature=27, unit="C", school_mode=False),
     gas_constant=GasConstant(school_mode=False)
-    """
-    gas_constant=GasConstant() [ Default Mode ]
-    gas_constant=GasConstant(school_mode=True) [School Mode]
-    """
+
+    #gas_constant=GasConstant() [ Default Mode ]
+    #gas_constant=GasConstant(school_mode=True) [School Mode]
+
 )
 
-# Pressure ~ 25.92631
+# Pressure ~ 25.925693
 print(gas.calculate_pressure)
 ```
 
