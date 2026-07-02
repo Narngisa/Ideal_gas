@@ -1,5 +1,10 @@
-from ideal_gas import KELVIN_OFFSET_DEFAULT, KELVIN_OFFSET_SCHOOL, GAS_CONSTANT_DEFAULT, GAS_CONSTANT_SCHOOL, Density, GasConstant, Gram, MolarMass, Molarity, Pressure, Volume, Mole, Temperature
+from ideal_gas import Density, GasConstant, Gram, MolarMass, Molarity, Pressure, Volume, Mole, Temperature
 import pytest
+
+KELVIN_OFFSET_DEFAULT = 273.15
+KELVIN_OFFSET_SCHOOL = 273
+GAS_CONSTANT_DEFAULT = 0.082057
+GAS_CONSTANT_SCHOOL = 0.0821
 
 @pytest.mark.parametrize("value, unit, expected",[
         (760, "Torr", 1),

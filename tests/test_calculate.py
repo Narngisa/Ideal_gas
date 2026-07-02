@@ -1,5 +1,9 @@
-from ideal_gas import PMRT, Density, Molarity, PVdRT, PVnRT, PVgMRT, Pressure, Volume, Mole, Temperature, Gram, MolarMass, GAS_CONSTANT_DEFAULT, KELVIN_OFFSET_DEFAULT
+from ideal_gas import PMRT, Density, Molarity, PVdRT, PVnRT, PVgMRT, Pressure, Volume, Mole, Temperature, Gram, MolarMass
 
+KELVIN_OFFSET_DEFAULT = 273.15
+KELVIN_OFFSET_SCHOOL = 273
+GAS_CONSTANT_DEFAULT = 0.082057
+GAS_CONSTANT_SCHOOL = 0.0821
 
 def test_calculate_pressure():
     gas_PV_nRT = PVnRT(
