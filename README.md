@@ -1,9 +1,6 @@
 # 💨Ideal Gas Module
 Calculating The Ideal Gas Law in python, focusing make it easy and high school-friendly
 
-> [!NOTE]
-> This project under active development ☕
-
 ## 🐍Language
 Pure Python `version >= 3.10`
 
@@ -19,13 +16,12 @@ Pure Python `version >= 3.10`
 - Density `g/L`
 - Molarity `mol/dm3` and `mol/L`
 
-> [!IMPORTANT]
-> ### Default Mode
-> Gas Constant (R) `0.082057`
-> Kelvin (K) `273.15`
-> ### School Mode 
-> Gas Constant (R) `0.0821`
-> Kelvin (K) `273`
+### Mode
+Gas Constant (R) `0.082057`
+Kelvin (K) `273.15`
+### School Mode 
+Gas Constant (R) `0.0821`
+Kelvin (K) `273`
 
 ### Function
 - PV=nRT
@@ -117,10 +113,3 @@ gas = PVnRT(
 # Pressure ~ 25.925693
 print(gas.calculate_pressure)
 ```
-
-## 🔧Test Module
-1. `python -m venv venv`
-2. `source venv/bin/activate`
-3. `pip install pytest`
-4. `pip install -e .`
-5. `pytest`
