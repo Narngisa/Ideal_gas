@@ -6,3 +6,7 @@
 ## 🔧Test Module
 1. `pip install pytest`
 2. `pytest`
+
+## 📃Build Project
+1. `pip install --upgrade build`
+2. `python -m build`
