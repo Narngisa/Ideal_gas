@@ -30,7 +30,9 @@ Kelvin (K) `273`
 - P=MRT
 
 ## ⚙️Install
-You can download file ideal_gas.py and import it to use in your file main.
+```
+pip install ideal-gas
+```
 
 ## 📃Example
 
