@@ -7,7 +7,7 @@ package-dir = { "" = "src" }
 
 [project]
 name = "ideal-gas"
-version = "0.0.2"
+version = "0.1.1"
 description = "A Python module for calculating The Ideal Gas Law, focusing on being easy to use and high school-friendly"
 readme = "README.md"
 license = { text = "MIT" }
