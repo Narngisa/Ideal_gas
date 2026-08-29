@@ -1,5 +1,5 @@
 from .ideal_gas import (
-    PVnRT, PVgMRT, PVdRT, PMRT,
+    PVnRT, PVgMRT, PMdRT, PVdRT, PMRT,
     Pressure, Volume, Mole, GasConstant, Temperature,
     Gram, MolarMass,
     Density,
@@ -7,7 +7,7 @@ from .ideal_gas import (
 )
 
 __all__ = [
-    "PVnRT", "PVgMRT", "PVdRT", "PMRT",
+    "PVnRT", "PVgMRT", "PMdRT", "PVdRT", "PMRT",
     "Pressure", "Volume", "Mole", "GasConstant", "Temperature",
     "Gram", "MolarMass",
     "Density",

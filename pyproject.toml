@@ -7,8 +7,8 @@ package-dir = { "" = "src" }
 
 [project]
 name = "ideal-gas"
-version = "0.0.1"
-description = "A Python module for calculating The Ideal Gas Law, focusing make it easy and high school-friendly"
+version = "0.0.2"
+description = "A Python module for calculating The Ideal Gas Law, focusing on being easy to use and high school-friendly"
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"
@@ -33,3 +33,6 @@ classifiers = [
 Homepage = "https://github.com/Narngisa/Ideal-gas"
 Repository = "https://github.com/Narngisa/Ideal-gas"
 Issues = "https://github.com/Narngisa/Ideal-gas/issues"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
